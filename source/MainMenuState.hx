@@ -28,7 +28,7 @@ class MainMenuState extends MusicBeatState
 
 	#if !switch
 	var optionShit:Array<String> = ['story mode', 'freeplay', 'options'];
-	#else
+	#end
 
 	var newGaming:FlxText;
 	var newGaming2:FlxText;
